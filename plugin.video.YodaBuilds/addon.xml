@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.YodaBuilds" name="Yoda Builds" version="1.0.0" provider-name="Media.myshh.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Yoda Builds - Custom Kodi Builds  Firmware</summary>
+    <description lang="en">Yoda Builds, Custom firmware, builds and more. Gaming Editions upon request</description>
+    <platform>all</platform>
+  </extension>
+</addon>
